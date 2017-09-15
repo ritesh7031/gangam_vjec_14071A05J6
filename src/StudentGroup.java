@@ -295,16 +295,16 @@ public class StudentGroup implements StudentArrayOperation {
 	@Override
 	public int getCurrentAgeByDate(int indexOfStudent) {
 		// Add your implementation here
-		if(indexOfStudent==0)
+		/*if(indexOfStudent==0)
 			throw new IllegalArgumentException();	
 		return(2017-(int)students[indexOfStudent].getBirthDate().getYear());
-//		return 0;
+//		*/return 0;
 	}
 
 	@Override
 	public Student[] getStudentsByAge(int age) {
 		// Add your implementation here
-		Student[] s2=new Student[students.length];
+		/*Student[] s2=new Student[students.length];
 		int i,j;
 		for( i=0,j=0;i<students.length;i++)
 		{
@@ -312,7 +312,7 @@ public class StudentGroup implements StudentArrayOperation {
 				s2[j++]=students[i];
 		}
 		return s2;
-	//	return null;
+	//	*/return null;
 	}
 
 	@Override
